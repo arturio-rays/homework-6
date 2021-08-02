@@ -19,10 +19,6 @@ h1, p {
     margin: 0;
 }
 
-.sprite {
-    display: none;
-}
-
 .cards {
     padding: 6px 0 18px;
 }
@@ -39,39 +35,54 @@ h1, p {
     padding: 50px;
 }   
 
-.card-icon { 
+.icon-tablet_icon:before {
+    content: "\e902";
+    color: #fff;
+    font-size: 24px;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 64px;
     height: 64px;
-    background-color: #2a69a6;
-    border: 2px solid #2a69a6;
+    background-color: #1275b9;
+    border: 2px solid #1275b9;
     border-radius: 50%;
-    transition: background 0.1s linear;
     margin: 0 auto;
 }
 
-.card-icon:hover {
-    background-color: #fff;
-}
-
-.icon-image {
-    width: 27px;
-    height: 27px;
+.icon-settings_icon:before {
+    content: "\e901";
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background-color: #1275b9;
+    border: 2px solid #1275b9;
+    border-radius: 50%;
     margin: 0 auto;
 }
 
-.white {
+.icon-dashboard_icon:before {
+    content: "\e900";
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    background-color: #1275b9;
+    border: 2px solid #1275b9;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.icon-tablet_icon:hover:before, .icon-settings_icon:hover:before, .icon-dashboard_icon:hover:before {
+    color: #1275b9;
     background-color: #fff;
-}
-
-.white .icon-image {
-    width: 24px;
-    height: 30px;
-}
-
-.white:hover {
-    background-color: #2a69a6;
 }
 
 .card-title {

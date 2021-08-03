@@ -47,7 +47,7 @@ body {
 }
 
 .item {
-    display: block;
+    display: flex;
     color: #fff;
     font-size: 24px;
     padding: 10px;
@@ -108,5 +108,10 @@ button {
     font-size: 20px;
     padding: 15px 390px;
     margin: 0 auto;
+}
+
+button:active {
+    background-color: green;
+    color: red;
 }
 

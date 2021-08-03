@@ -13,7 +13,7 @@ body {
 
 .header {
     background-color: #4a4f56;
-    padding: 30px;
+    padding: 20px;
 }
 
 .title {
@@ -22,6 +22,7 @@ body {
     color: #eb7e7f;
     font-size: 20px;
     text-decoration: none;
+    padding: 10px;
 }
 
 .subtitle {
@@ -48,9 +49,10 @@ body {
 
 .item {
     display: flex;
+    align-items: center;
     color: #fff;
     font-size: 24px;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .item:nth-child(odd) {
@@ -73,6 +75,7 @@ body {
 
 .item label {
     width: 100%;
+    padding: 10px;
 }
 
 .comment {
